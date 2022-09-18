@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Cadastro de usuário</title>
+</head>
+<body>
+   <div class="container">
+    <div class="form-image">
+        <img src="img/animação de login.svg">
+    </div>
+    <div class="form">
+        <form action="#">
+            <div class="form-header">
+                <div class="title">
+                    <h1>Cadastre-se</h1>
+                </div>
+                <div class="login-button">
+                    <button><a href="#">Entrar</a></button>
+                </div>
+            </div>
+            <!-- class (label-input) do label é para mudar o espaço do nome do campo em cima do campo onde é pra digitar a informação pedida-->
+            <div class="input-group">
+                <div class="input-box">
+                    <label class="label-input" for="firstname">Primeiro nome</label>
+                    <input id="firstname" type="text" name="fisrtname" placeholder="Digite seu primeiro nome" required>
+                </div>
+
+                    <div class="input-box">
+                        <label class="label-input" for="surname">Sobrenome</label>
+                        <input id="Sobrenome" type="text" name="surname" placeholder="Digite seu sobrenome" required>
+                    </div>
+
+                        <div class="input-box">
+                            <label class="label-input" for="email">E-mail</label>
+                            <input id="e-mail" type="e-mail" name="e-mail" placeholder="Digite seu e-mail" required>
+                        </div>
+
+                            <div class="input-box">
+                                <label class="label-input" for="celphone">Celular</label>
+                                <input id="celphone" type="number" name="number" placeholder="(xx) xxxx-xxxx" required>
+                            </div>
+
+                                <div class="input-box">
+                                    <label class="label-input" for="password">Senha</label>
+                                    <input id="password" type="password" name="password" placeholder="Crie uma senha" required>
+
+                                    <div class="input-box">
+                                        <label class="label-input" for="password">Confirme sua senha</label>
+                                        <input id="password" type="password" name="password" placeholder="Confirme sua senha" required>
+                </div>
+            </div>
+
+            <div class="gender-input">
+                <div class="gender-title">
+                    <h6>Genero</h6>
+                </div>
+
+                <div class="gender-group">
+                    <div class="gender-input">
+                        <input type="radio" id="female" name="gender">
+                        <label for="female">Feminino</label>
+                    </div>
+
+                    <div class="gender-input">
+                        <input type="radio" id="male" name="gender">
+                        <label for="male">Masculino</label>
+                    </div>
+                    
+                    <div class="gender-input">
+                        <input type="radio" id="none" name="gender">
+                        <label for="none">Prefiro não dizer</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="continue-button">
+                <button><a href="#">Continuar</a></button>
+            </div>
+
+        </form>
+    </div>
+   </div> 
+</body>
+</html>
